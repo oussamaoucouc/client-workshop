@@ -11,6 +11,7 @@ function App(){
       <Button text={'Add video'} />
       <Input type={"text"} id={'id1'} name={'name'} label={'Email'} />
       <a href="/oucouc">oussama</a>
+      <h1>Hello  there !</h1>
     </div>
   ) 
 }
