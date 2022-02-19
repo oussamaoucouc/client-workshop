@@ -1,17 +1,16 @@
 import React from 'react'; 
-import Tweet from './Tweet';
 import "./App.css";
-
+import Button from './components/Button';
+import Input from './components/Input';
 
 function App(){
 
+
   return(
     <div className="app">
-      <Tweet name="Dev ED" message="Hello today" likes="122"/>
-      <Tweet name="naruto" message="tomorrow is good" likes="14444" />
-      <Tweet name="One piece" message="Happy new yeary" likes="13252"/>
-      <Tweet name="bleach" message="Heeeell noooo" likes="56122"/>
-
+      <Button text={'Add video'} />
+      <Input type={"text"} id={'id1'} name={'name'} label={'Email'} />
+      <a href="/oucouc">oussama</a>
     </div>
   ) 
 }

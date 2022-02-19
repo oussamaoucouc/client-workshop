@@ -1,6 +1,6 @@
 .app {
   min-height: 100vh;
-  background: #57bddf;
+  background: #E5E5E5;
   display: flex;
   justify-content: space-around;
 
@@ -15,4 +15,8 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+.red{
+  color: red;
+  font-size: 50px;;
 }
